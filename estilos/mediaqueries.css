@@ -1,0 +1,386 @@
+@media screen and (max-width: 1330px) {
+    /*HEADER && SIDEBAR*/
+    header {
+        left: 0;
+        width: 100%;
+    }
+
+    nav {
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    header .header__topics__container {
+        margin-left: 0;
+    }
+
+    header .header__personal-account {
+        gap: 0;
+        padding: .3rem;
+    }
+
+    header .header__personal-account .header__personal-picture {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    header .header__personal-account .header__personal-name {
+        display: none;
+    }
+
+    header .header__input__container {
+        width: 50%;
+    }
+
+    main {
+        left: 0;
+        width: 100%;
+    }
+
+    .sidebar__general {
+        z-index: 11;
+        transition: .3s all ease-in-out;
+        padding-right: 2rem;
+    }
+
+    #menu-icon {
+        margin-left: 4rem;
+    }
+
+    header .header__topics__container .header__topics-list .header__topics-list-item {
+        font-size: .9rem;
+    }
+
+    header .header__personal {
+        gap: 1rem;
+        margin-right: 4rem;
+    }
+
+    .close-menu {
+        color: var(--color__main__1);
+        cursor: pointer;
+        font-size: 1.3rem;
+        padding: .4rem .6rem;
+        border-radius: 50%;
+        margin-left: 2rem;
+    }
+
+    .close-menu:hover {
+        background-color: #8e8d8d1b;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .main__trending__title {
+        font-size: 2.4rem;
+    }
+    .main__trending__music__container {
+        width: 80%;
+        height: 20rem;
+    }
+
+    .main__trending__music__container .change-items .fa-solid {
+        font-size: 2rem;
+    }
+
+    .main__trending__image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .main__trending__music__container .main__trending__infos .main__trending__artist-subinfos .main__trending__artist-name {
+        font-size: .9rem;
+    }
+
+    .main__trending__music__container .main__trending__infos .main__trending__artist-song {
+        font-size: 3rem;
+    }
+
+    .main__trending__music__container .main__trending__infos .main__trending__artist-subinfos .main__trending__artist-song-views {
+        font-size: .9rem;
+    }
+
+    .main__trending__image .main__trending__artist-photo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main__trending__buttons {
+        height: 50px;
+    }
+
+    .main__trending__buttons .main__trending__to-listen {
+        font-size: .8rem;
+        padding: 0 10px;
+    }
+
+    .main__trending__buttons .main__trending__to-favorite {
+        padding: 0 10px;
+    }
+
+    .divisor__genre-and-listening {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .genres__block {
+        width: 95%;
+    }
+    .genres__block .genres__block__spans h4 {
+        font-size: 1.5rem;
+    }
+
+    .genres__block .genres__block__spans a {
+        font-size: 1rem;
+    }
+
+    .genres__block .genres__block__miniblocks {
+        margin: 0;
+    }
+
+    .genres__block .genres__block__miniblocks div {
+        padding: 2rem;
+    }
+
+    .listening-to-block {
+        width: 95%;
+    }
+
+    .listening-to-block .album-listening {
+        width: 40%;
+    }
+    .listening-to-block .album-listening-infos {
+        width: 55%;
+    }
+
+    .listening-to-block .album-listening-infos .listening-titles .listening-music-title {
+        font-size: 2.2rem;
+    }
+
+    .listening-to-block .album-listening-infos .listening-titles .listening-music-artist-text {
+        font-size: 1rem;
+    }
+
+    .listening-to-block .album-listening-infos .listening-music-artist-photo {
+        width: 30px;
+        height: 30px;
+    }
+    .listening-to-block .album-listening-infos .listening-music-album {
+        font-size: .8rem;
+        padding: 8px;
+    }
+
+    .listening-to-block .album-listening-infos .listening-controls-line .listening-line {
+        width: 100px;
+    }
+
+    .listening-to-block .album-listening-infos .listening-controls-icons .fa-solid {
+        font-size: 1.4rem;
+    }
+    .listening-to-block .album-listening-infos {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    #menu-icon {
+        margin-left: 1rem;
+    }
+    header .header__personal {
+        margin-right: 1rem;
+    }
+    header .header__input__container .header__input__itens #input_space {
+        width: 80%;
+    }
+
+    .main__trending__music__container .main__trending__infos {
+        margin-right: .5rem;
+    }
+
+    .main__trending__music__container .main__trending__infos .main__trending__artist-song {
+        font-size: 2rem;
+    }
+
+    .main__trending__music__container .main__trending__infos .main__trending__artist-subinfos {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .main__trending__music__container .main__trending__infos .main__trending__artist-subinfos .main__trending__artist-name {
+        font-size: .8rem;
+    }
+
+    .main__trending__music__container .main__trending__infos .main__trending__artist-subinfos .main__trending__artist-song-views {
+        font-size: .8rem;
+    }
+
+    .main__trending__image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .main__trending__music__container .change-items .fa-solid {
+        font-size: 1.4rem;
+    }
+    .main__trending__buttons .main__trending__to-listen {
+        padding: 0 15px;
+        height: 40px;
+        font-size: .7rem;
+    }
+
+    .main__trending__buttons .main__trending__to-favorite {
+        height: 40px;
+        font-size: .9rem;
+        padding: 0 10px;
+    }
+
+    .listening-to-block {
+        gap: 2rem;
+    }
+
+    .listening-to-block .album-listening-infos .listening-titles span {
+        text-align: center;
+    }
+
+    .listening-to-block .album-listening {
+        width: 50%;
+    }
+
+    .listening-to-block .album-listening-infos {
+        width: 40%;
+        margin: auto;
+    }
+
+    .listening-to-block .album-listening-infos h4 {
+        font-size: 1rem;
+    }
+
+    .listening-to-block .album-listening-infos .listening-titles .listening-music-title {
+        font-size: 1.5rem;
+    }
+
+    .listening-to-block .album-listening-infos .listening-titles .listening-music-artist-text {
+        font-size: .8rem;
+    }
+
+    .listening-to-block .album-listening-infos .listening-music-artist-photo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .listening-to-block .album-listening-infos .listening-music-album {
+        font-size: .7rem;
+        padding: 7px;
+    }
+
+    .listening-to-block .album-listening-infos .listening-controls-line span {
+        font-size: .9rem;
+    }
+
+    .listening-to-block .album-listening-infos .listening-controls-line .listening-line {
+        width: 80px;
+    }
+
+    .listening-to-block .album-listening-infos .listening-controls-icons .fa-solid {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    header .header__personal .header__icons {
+        display: none;
+    }
+
+    header .header__personal-account {
+        padding: 0;
+    }
+
+    header .header__input__container {
+        width: 45%;
+    }
+
+    header .header__input__container .header__input__itens #input_space {
+        width: 75%;
+    }
+    header .header__personal-account .header__personal-picture {
+        height: 40px;
+        width: 40px;
+    }
+
+    .main__trending__title {
+        font-size: 1.5rem;
+    }
+
+    .main__trending__music__container {
+        width: 90%;
+        flex-direction: column-reverse;
+        height: 24rem;
+        gap: .3rem;
+    }
+    .main__trending__image {
+        width: 170px;
+        height: 170px;
+    }
+
+    .main__trending__music__container .main__trending__infos {
+        margin: 0 auto;
+        align-items: center;
+        gap: .3rem;
+    }
+
+    .main__trending__music__container .main__trending__infos .main__trending__artist-song {
+        font-size: 1.5rem;
+    }
+    .main__trending__music__container .main__trending__infos .main__trending__artist-subinfos {
+        align-items: center;
+        justify-content: center;
+        gap: .4rem;
+        margin-bottom: .5rem;
+    }
+
+    .main__trending__music__container .change-items .fa-solid {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    .genres__block .genres__block__spans h4 {
+        font-size: 1rem;
+    }
+    .genres__block .genres__block__spans a {
+        font-size: .8rem;
+    }
+
+    .genres__block .genres__block__miniblocks {
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .genres__block .genres__block__miniblocks div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    .listening-to-block {
+        flex-direction: column;
+    }
+
+    .listening-to-block .album-listening {
+        width: 170px;
+        height: 170px;
+        margin: 0 auto;
+    }
+
+    .listening-to-block .album-listening .album-listening-photo {
+        height: 100%;
+    }
+    .listening-to-block .album-listening-infos {
+        width: 100%;
+    }
+    .listening-to-block .album-listening-infos .listening-titles {
+        gap: .4rem;
+    }
+}

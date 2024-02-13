@@ -1,0 +1,145 @@
+* {
+    ::-webkit-scrollbar-track {
+        background-color: var(--color__pattern__inverse__1);
+    }
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: var(--color__main__1);
+        border-radius: 15px;
+    }
+}
+
+body {
+    background-color: var(--color__pattern__1);
+    font-family: var(--font__main);
+}
+
+.sidebar__general {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 1.8rem;
+    padding-right: 5rem;
+    background-color: var(--color__pattern__2);
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-y: auto;
+}
+
+.sidebar__logo__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+    padding-bottom: .7rem;
+    border-bottom: 1px solid var(--color__main__1);
+    margin-bottom: 1.3rem;
+}
+
+.sidebar__logo__container .sidebar__logo__itens__image {
+    width: 50px;
+    height: 50px;
+}
+
+.sidebar__logo__container .sidebar__logo__itens__text {
+    color: var(--color__main__1);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.sidebar__topics {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    margin-bottom: .8rem;
+}
+
+.sidebar__topics .sidebar__similar__minititle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    color: var(--color__pattern__inverse__1);
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.sidebar__topics .sidebar__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: .5rem;
+}
+
+.sidebar__topics .sidebar__list .sidebar__similar__itens {
+    display: flex;
+    gap: .7rem;
+}
+
+.sidebar__topics .sidebar__list .sidebar__similar__itens .fa-solid {
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color__pattern__inverse__2);
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.sidebar__topics .sidebar__list .sidebar__similar__itens .sidebar__similar__itens-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--color__pattern__inverse__2);
+    text-decoration: none;
+    font-weight: 300;
+
+    padding: 4px 7px;
+    border-radius: 999px;
+}
+
+.sidebar__topics .sidebar__list .sidebar__similar__itens:hover .sidebar__similar__itens-name {
+    background-color: var(--color__pattern__inverse__2);;
+    color: #000;
+    font-weight: 700;
+}
+
+.sidebar__topics .sidebar__viewmore__clue {
+    display: block;
+    width: 100% !important;
+    text-align: start;
+
+    color: var(--color__main__1);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: .9rem;
+
+    margin-bottom: 50px;
+}
+
+.sidebar__topics .sidebar__viewmore__clue:hover {
+    text-decoration: underline;
+}
+
+#menu-icon {
+    color: var(--color__main__1);
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+    margin-left: 4rem;
+}
+
+.hidden-menu {
+    display: none !important;
+}
+
+.rotate-menu {
+    transform: rotate(90deg);
+}

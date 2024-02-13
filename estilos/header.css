@@ -1,0 +1,115 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 15.3125rem;
+    padding-top: 1rem;
+    padding-bottom: 20px;
+    width: calc(100% - 15.3125rem);
+    z-index: 10;
+    background-image: linear-gradient(to bottom, #000, var(--color__pattern__1));
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+header .header__topics__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+header .header__topics__container .header__topics-list {
+    display: flex;
+    gap: .6rem;
+}
+
+header .header__topics__container .header__topics-list .header__topics-list-item {
+    color: var(--color__main__1);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 999px;
+    transition: .2s all ease-in-out;
+}
+
+header .header__topics__container .header__topics-list .header__topics-list-item:hover {
+    background-color: var(--color__main__1);
+    color: var(--color__pattern__inverse__2);
+}
+
+header .header__input__container {
+    width: 30rem;
+    background-color: #7575755f;
+    padding: .5rem 1rem .5rem .8rem;
+    border-radius: 10px;
+}
+
+header .header__input__container .header__input__itens .fa-solid {
+    color: var(--color__pattern__inverse__2);
+    font-size: .9rem;
+    margin-right: .4rem;
+}
+
+header .header__input__container .header__input__itens #input_space {
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    color: var(--color__pattern__inverse__2);
+    outline: none;
+}
+
+header .header__personal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    margin-right: 4rem;
+}
+
+header .header__personal .header__icons {
+    display: flex;
+    gap: 1.2rem;
+}
+
+header .header__personal .header__icons .fa-solid {
+    color: var(--color__pattern__inverse__2);
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
+
+header .header__personal .header__icons .fa-solid:hover {
+    transform: scale(1.2);
+}
+
+header .header__personal-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    background-color: #75757524;
+    padding: .4rem 1rem .3rem .5rem;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
+
+header .header__personal-account:hover {
+    background-color: #8e8d8d6d;
+}
+
+header .header__personal-account .header__personal-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+header .header__personal-account .header__personal-name {
+    color: var(--color__pattern__inverse__2);
+    font-weight: 600;
+}
+
+

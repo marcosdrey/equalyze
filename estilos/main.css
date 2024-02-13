@@ -1,0 +1,343 @@
+main {
+    position: absolute;
+    top: 7rem;
+    left: 15.3125rem;
+    width: calc(100% - 15.3125rem);
+}
+
+.main__trending__title {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+    color: var(--color__main__2);
+}
+
+.main__trending__music__container {
+    background-color: #8e8d8d1b;
+    min-height: 20rem;
+    margin: 1rem auto 0;
+    border-radius: 50px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main__trending__music__container .change-items .fa-solid {
+    color: var(--color__main__2);
+    font-size: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
+    transition: .1s all ease-in-out;
+}
+
+.main__trending__music__container .main__trending__infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    max-width: 600px;
+}
+
+.main__trending__music__container .main__trending__infos .main__trending__artist-song {
+    color: var(--color__asides__1);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.main__trending__music__container .main__trending__infos .main__trending__artist-subinfos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.main__trending__music__container .main__trending__infos .main__trending__artist-subinfos .main__trending__artist-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--color__asides__3);
+}
+
+.main__trending__music__container .main__trending__infos .main__trending__artist-subinfos .main__trending__artist-song-views {
+    font-size: 1.2rem;
+    color: var(--color__main__3);
+}
+
+.main__trending__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1rem;
+}
+
+.main__trending__buttons .main__trending__to-listen {
+    padding: 15px;
+    border-radius: 999px;
+    border: none;
+    background-color: var(--color__main__1);
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
+
+.main__trending__buttons .main__trending__to-listen:hover {
+    background-color: var(--color__asides__1);
+}
+
+.main__trending__buttons .main__trending__to-favorite {
+    background-color: transparent;
+    border: 3px solid var(--color__main__1);
+    color: var(--color__main__1);
+    border-radius: 999px;
+    font-size: 1.5rem;
+    padding: 15px;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
+
+.main__trending__buttons .main__trending__to-favorite:hover {
+    border-color: var(--color__asides__1);
+    background-color: var(--color__asides__1);
+    color: #fff;
+}
+
+.main__trending__music__container .change-items .fa-solid:hover {
+    background-color: #8e8d8d58;
+}
+
+.main__trending__image .main__trending__artist-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.hide-trending {
+    display: none;
+}
+
+/* GENRE BLOCKS */
+
+.divisor__genre-and-listening {
+    width: 90%;
+    margin: 1.4rem auto;
+    display: flex;
+    justify-content: center;
+    gap: 1.4rem;
+}
+
+.genres__block {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 2rem;
+    background-color: #8e8d8d1b;
+    border-radius: 50px;
+    width: 30%;
+    min-height: 300px;
+}
+
+.genres__block .genres__block__spans {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.genres__block .genres__block__spans h4 {
+    color: var(--color__asides__2);
+    font-weight: 700;
+    font-size: 1.2rem; 
+}
+
+.genres__block .genres__block__spans a {
+    font-size: .9rem;
+    text-decoration: none;
+    color: var(--color__asides__3);
+}
+
+.genres__block .genres__block__spans a:hover {
+    text-decoration: underline;
+}
+
+.genres__block .genres__block__miniblocks {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .7rem;
+}
+
+.genres__block .genres__block__miniblocks div {
+    background-color: #fff;
+    padding: 1.6rem;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.genres__block .genres__block__miniblocks div:hover {
+    opacity: 60%;
+}
+
+.genres__block .genres__block__miniblocks .genres__electro-house {
+    background-color: rgb(22, 22, 250);
+}
+
+.genres__block .genres__block__miniblocks .genres__international-pop {
+    background-color: #d6949f;
+}
+
+.genres__block .genres__block__miniblocks .genres__hip-hop-trap {
+    background-color: rgb(199, 166, 123);
+}
+
+.genres__block .genres__block__miniblocks .genres__heavy-metal {
+    background-color: rgb(224, 38, 18);
+}
+
+.genres__block .genres__block__miniblocks .genres__70s {
+    background-color: #087f08;
+}
+
+.genres__block .genres__block__miniblocks .genres__country-music {
+    background-color: #55e850;
+}
+
+.listening-to-block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4rem;
+    background-color: #8e8d8d1b;
+    width: 70%;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.listening-to-block .album-listening {
+    width: 300px;
+}
+
+.listening-to-block .album-listening .album-listening-photo {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.listening-to-block .album-listening-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.listening-to-block .album-listening-infos h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--color__asides__2);
+}
+
+.listening-to-block .album-listening-infos .listening-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.1rem;
+    margin: auto;
+}
+
+.listening-to-block .album-listening-infos .listening-titles .listening-music-title {
+    font-size: 2.8rem;
+    text-decoration: none;
+    color: var(--color__asides__1);
+    font-weight: 600;
+}
+
+.listening-to-block .album-listening-infos .listening-titles .listening-music-artist {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: .5rem;
+}
+
+.listening-to-block .album-listening-infos .listening-titles .listening-music-artist-text {
+    color: var(--color__asides__3);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.listening-to-block .album-listening-infos .listening-music-artist-photo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.listening-to-block .album-listening-infos .listening-music-album {
+    background-color: var(--color__main__1);
+    padding: 15px;
+    border-radius: 999px;
+    text-decoration: none;
+    color: #fff;
+    transition: .2s all ease-in-out;
+}
+
+.listening-to-block .album-listening-infos .listening-music-album:hover {
+    background-color: var(--color__asides__1);
+}
+
+.listening-to-block .album-listening-infos .listening-controls {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listening-to-block .album-listening-infos .listening-controls-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    color: #fff;
+}
+
+.listening-to-block .album-listening-infos .listening-controls-line .improvising-line {
+    display: flex;
+    align-items: center;
+}
+
+.listening-to-block .album-listening-infos .listening-controls-line .listening-line {
+    width: 300px;
+    background-color: var(--color__main__3);
+    height: 4px;
+}
+
+.listening-to-block .album-listening-infos .listening-controls-line .improvising-line .fa-solid {
+    color: var(--color__main__1);
+}
+
+.listening-to-block .album-listening-infos .listening-controls-icons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.listening-to-block .album-listening-infos .listening-controls-icons .fa-solid {
+    font-size: 1.6rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.listening-to-block .album-listening-infos .listening-controls-icons .fa-solid:hover {
+    color: var(--color__main__1);
+}
+

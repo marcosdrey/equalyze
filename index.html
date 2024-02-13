@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equalyze - OFICIAL</title>
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/sidebar__body.css">
+    <link rel="stylesheet" href="estilos/header.css">
+    <link rel="stylesheet" href="estilos/main.css">
+    <link rel="stylesheet" href="estilos/mediaqueries.css">
+    <script src="https://kit.fontawesome.com/610438fd92.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="sidebar__general">
+        <div class="sidebar__logo__container">
+            <img class="sidebar__logo__itens__image" src="imagens/logo.png" alt="Equalyze Logo">
+            <span class="sidebar__logo__itens__text">Equalyze</span>
+            <i class="close-menu hidden-menu fa-solid fa-x"></i>
+        </div>
+        <div class="sidebar__topics" id="sidebar__menu__container">
+            <h4 class="sidebar__similar__minititle">MENU</h4>
+            <ul class="sidebar__list">
+                <li class="sidebar__similar__itens">
+                    <i class="fa-solid fa-fire"></i>
+                    <a class="sidebar__similar__itens-name" href="#">Trending</a>
+                </li>
+                <li class="sidebar__similar__itens">
+                    <i class="fa-solid fa-star"></i>
+                    <a class="sidebar__similar__itens-name" href="#">New Drops</a>
+                </li>
+                <li class="sidebar__similar__itens">
+                    <i class="fa-solid fa-headphones"></i>
+                    <a class="sidebar__similar__itens-name" href="#">Genres</a>
+                </li>
+                <li class="sidebar__similar__itens">
+                    <i class="fa-solid fa-microphone"></i>
+                    <a class="sidebar__similar__itens-name" href="#">Artists</a>
+                </li>
+                <li class="sidebar__similar__itens">
+                    <i class="fa-solid fa-radio"></i>
+                    <a class="sidebar__similar__itens-name" href="#">Podcasts</a>
+                </li>
+            </ul>
+        </div>
+        <div class="sidebar__topics" id="sidebar__library__container">
+            <h4 class="sidebar__similar__minititle">LIBRARY</h4>
+            <ul class="sidebar__list">
+                <li class="sidebar__similar__itens">
+                    <i class="fa-solid fa-heart"></i>
+                    <a class="sidebar__similar__itens-name" href="#">Favorites</a>
+                </li>
+                <li class="sidebar__similar__itens">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <a class="sidebar__similar__itens-name" href="#">Historic</a>
+                </li>
+                <li class="sidebar__similar__itens">
+                    <i class="fa-solid fa-download"></i>
+                    <a class="sidebar__similar__itens-name" href="#">Downloads</a>
+                </li>
+            </ul>
+        </div>
+        <div class="sidebar__topics" id="sidebar__playlists">
+            <h4 class="sidebar__similar__minititle">PLAYLISTS</h4>
+            <ul class="sidebar__list">
+                <li class="sidebar__similar__itens">
+                    <i class="fa-solid fa-circle-plus"></i>
+                    <a class="sidebar__similar__itens-name" href="#">Create New</a>
+                </li>
+                <li class="sidebar__similar__itens">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <a class="sidebar__similar__itens-name" href="#">Personalized</a>
+                </li>
+                <li class="sidebar__similar__itens">
+                    <i class="fa-solid fa-list-ul"></i>
+                    <a class="sidebar__similar__itens-name" href="#">Hits 2024</a>
+                </li>
+                <li class="sidebar__similar__itens">
+                    <i class="fa-solid fa-list-ul"></i>
+                    <a class="sidebar__similar__itens-name" href="#">Hits 2023</a>
+                </li>
+                <li class="sidebar__similar__itens">
+                    <i class="fa-solid fa-list-ul"></i>
+                    <a class="sidebar__similar__itens-name" href="#">Michael L.</a>
+                </li>   
+            </ul>
+            <a class="sidebar__viewmore__clue" href="#">View More</a>
+        </div>
+    </div>
+    <header>
+        <nav>
+            <div id="menu-icon" class="hidden-menu"><i class="fa-solid fa-bars"></i></div>
+            <div class="header__topics__container">
+                <ul class="header__topics-list">
+                    <li><a class="header__topics-list-item" href="#">ALBUMS</a></li>
+                    <li><a class="header__topics-list-item" href="#">PODCASTS</a></li>
+                    <li><a class="header__topics-list-item" href="#">NEWS</a></li>
+                </ul>
+            </div>
+            <div class="header__input__container">
+                <div class="header__input__itens">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" name="input_space" id="input_space" placeholder="Type here to search">
+                </div>
+            </div>
+            <div class="header__personal">
+                <div class="header__icons">
+                    <i class="fa-solid fa-bell"></i>
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+                <div class="header__personal-account">
+                    <img class="header__personal-picture" src="imagens/profile.jpg" alt="Your Photo">
+                    <span class="header__personal-name">John Doe</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>   
+        <div class="trendings__block">
+            <h2 class="main__trending__title">TRENDING RIGHT NOW</h2>
+            <div class="main__trending__music__container">
+                <span class="change-items"><i class="fa-solid fa-arrow-left"></i></span>
+                <div class="main__trending__infos">
+                    <h4 class="main__trending__artist-song">FLAVOR.</h4>
+                    <div class="main__trending__artist-subinfos">
+                        <h3 class="main__trending__artist-name">Lucas Kennedy</h3>
+                        <span class="main__trending__artist-song-views">
+                            64.025.300
+                            <i class="fa-solid fa-eye"></i>
+                        </span>
+                    </div>
+                    <div class="main__trending__buttons">
+                        <button class="main__trending__to-listen">Listen Now</button>
+                        <button class="main__trending__to-favorite">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="main__trending__image">
+                    <img class="main__trending__artist-photo" src="imagens/artist1.png" alt="Artist Photo">
+                </div>
+                <span class="change-items"><i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+            <div class="main__trending__music__container hide-trending">
+                <span class="change-items"><i class="fa-solid fa-arrow-left"></i></span>
+                <div class="main__trending__infos">
+                    <h4 class="main__trending__artist-song">loving times</h4>
+                    <div class="main__trending__artist-subinfos">
+                        <h3 class="main__trending__artist-name">Cassie J</h3>
+                        <span class="main__trending__artist-song-views">
+                            59.312.900
+                            <i class="fa-solid fa-eye"></i>
+                        </span>
+                    </div>
+                    <div class="main__trending__buttons">
+                        <button class="main__trending__to-listen">Listen Now</button>
+                        <button class="main__trending__to-favorite">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="main__trending__image">
+                    <img class="main__trending__artist-photo" src="imagens/artist2.jpg" alt="Artist Photo">
+                </div>
+                <span class="change-items"><i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+            <div class="main__trending__music__container hide-trending">
+                <span class="change-items"><i class="fa-solid fa-arrow-left"></i></span>
+                <div class="main__trending__infos">
+                    <h4 class="main__trending__artist-song">whistles</h4>
+                    <div class="main__trending__artist-subinfos">
+                        <h3 class="main__trending__artist-name">Dave the Poet</h3>
+                        <span class="main__trending__artist-song-views">
+                            55.988.300
+                            <i class="fa-solid fa-eye"></i>
+                        </span>
+                    </div>
+                    <div class="main__trending__buttons">
+                        <button class="main__trending__to-listen">Listen Now</button>
+                        <button class="main__trending__to-favorite">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="main__trending__image">
+                    <img class="main__trending__artist-photo" src="imagens/artists3.jpg" alt="Artist Photo">
+                </div>
+                <span class="change-items"><i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </div>
+        <div class="divisor__genre-and-listening">
+            <div class="genres__block">
+                <div class="genres__block__spans">
+                    <h4>Genres</h4>
+                    <a href="#">View more</a>
+                </div>
+                <div class="genres__block__miniblocks">
+                    <div class="genres__electro-house">
+                        <p>Electro House</p>
+                    </div>
+                    <div class="genres__international-pop">
+                        <p>International Pop</p>
+                    </div>
+                    <div class="genres__hip-hop-trap">
+                        <p>Trap hip-hop</p>
+                    </div>
+                    <div class="genres__heavy-metal">
+                        <p>Heavy Metal</p>
+                    </div>
+                    <div class="genres__70s">
+                        <p>70s Hits</p>
+                    </div>
+                    <div class="genres__country-music">
+                        <p>Country</p>
+                    </div>
+                </div>
+            </div>
+            <div class="listening-to-block">
+                <div class="album-listening">
+                    <img class="album-listening-photo" src="imagens/album_photo.jpg" alt="">
+                </div>
+                <div class="album-listening-infos">
+                    <h4>Listening to:</h4>
+                    <div class="listening-titles">
+                        <span><a class="listening-music-title" href="#">Blanco &#40;Deluxe&#41;</a></span>
+                        <span class="listening-music-artist">
+                            <a class="listening-music-artist-text" href="#">Georgito</a>
+                            <img class="listening-music-artist-photo" src="imagens/artist-player.jpg" alt="">
+                        </span>
+                        <span><a class="listening-music-album" href="#">See Album</a></span>
+                    </div>
+                    <div class="listening-controls">
+                        <div class="listening-controls-line">
+                            <span>00:00</span>
+                            <div class="improvising-line">
+                                <i class="fa-solid fa-circle"></i>
+                                <div class="listening-line"></div>
+                            </div>
+                            <span>04:23</span>
+                        </div>
+                        <div class="listening-controls-icons">
+                            <i class="fa-solid fa-repeat"></i>
+                            <i class="fa-solid fa-backward-step"></i>
+                            <i class="fa-solid fa-circle-play"></i>
+                            <i class="fa-solid fa-forward-step"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
